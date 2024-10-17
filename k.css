@@ -1,0 +1,53 @@
+form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    justify-content: center;
+    color: white;
+    
+}
+form > *{
+    padding: 10px;
+    margin: 10px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    flex-direction: column;
+}
+label{
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.ho, .hoj{
+    display: flex;
+    flex-direction: column;
+}
+.ho > *, .hoj > *{
+    padding: 10px;
+} 
+h1{
+    display: flex;
+    color: #0D0000;
+    font-size: 100px;
+}
+input, select, button{
+    background-color: #0D0000;
+    color: white;
+    border-color: #0D0000;
+}
+a{
+    height: 300px;
+    width: 600px;
+    font-size: 60px;
+    background-color: black;
+    color: #0D0000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: solid;
+}
